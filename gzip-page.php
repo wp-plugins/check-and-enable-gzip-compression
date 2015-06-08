@@ -1,11 +1,11 @@
 <?php
 	//enable or disable
-	if($_GET['enable-gzip'] == 1) {
+	if(isset($_GET['enable-gzip']) && $_GET['enable-gzip'] == 1) {
 		$tb->enableGZIPCompression();
 		$gzipCheck->result->gzipenabled = 1;
 		$gzipCheck->result->summary = 'GZIP is enabled. Enjoy!';
 
-	} elseif($_GET['disable-gzip']) {
+	} elseif(isset($_GET['disable-gzip']) && $_GET['disable-gzip']) {
 		$tb->disableGZIPCompression();
 		$gzipCheck->result->gzipenabled = 0;
 		$gzipCheck->result->summary = 'GZIP is disabled.';
