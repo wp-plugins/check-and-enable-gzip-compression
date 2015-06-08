@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: Richards Toolbox
-Donate link: http://richardstoolbox.com/
 Tags: gzip, compression, compressed, speed, cache,http, loading, performance, server
 Requires at least: 3.0.1
 Tested up to: 4.2.2
