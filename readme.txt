@@ -20,10 +20,6 @@ This plugin checks if your Wordpress site has GZIP compression enabled. Every ti
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload `richards-toolbox.zip` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. The plugin will let you know it GZIP is enabled,
