@@ -5,7 +5,7 @@ Plugin URI: http://checkgzipcompression.com
 Description: This handy tool checks if you have GZIP compression enabled, and makes it possible to turn on GZIP compression. Every time you run this check, your domain name will be sent to http://checkgzipcompression.com. We won’t sent any other private information.
 Author: Richard's Toolbox
 Text Domain: richards-toolbox
-Version: 0.1
+Version: 0.2
 Author URI: http://richardstoolbox.com
 */
 
