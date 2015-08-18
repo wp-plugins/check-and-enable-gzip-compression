@@ -70,9 +70,9 @@ function gzip_compression_page() {
 }
 
 //check gzip compression
-add_action( 'init', 'check_richards_toolbox_gzip' );
+add_action( 'after_setup_theme', 'check_richards_toolbox_gzip' );
 function check_richards_toolbox_gzip() {
-     if( get_option('richards-toolbox-gzip-enabled') ) {
+     if( (get_option('richards-toolbox-gzip-enabled') || isset($_GET['enable-gzip'])) && !is_admin() ) {
           ob_start("ob_gzhandler");
      }
 }

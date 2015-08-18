@@ -1,8 +1,9 @@
 === Plugin Name ===
 Contributors: Richards Toolbox
+Donate link: http://richardstoolbox.com/
 Tags: gzip, compression, compressed, speed, cache,http, loading, performance, server
 Requires at least: 3.0.1
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +20,11 @@ This plugin checks if your Wordpress site has GZIP compression enabled. Every ti
 
 == Installation ==
 
-1. Upload `richards-toolbox.zip` to the `/wp-content/plugins/` directory
+This section describes how to install the plugin and get it working.
+
+e.g.
+
+1. Upload `check-and-enable-gzip-compression.zip` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. The plugin will let you know it GZIP is enabled,
 1. When GZIP is not enabled, you can enabled it via the tools menu.
@@ -55,6 +60,10 @@ Just about all the large websites worldwide use GZIP compression. For and actual
 4. You’ll receive an alert when GZIP is enabled.
 
 == Changelog ==
+
+= 0.2 =
+* Added preview modus for testing
+* If enabled, only front-end is GZIP compressed, not admin area
 
 = 0.1 =
 * First version of the plugin.
